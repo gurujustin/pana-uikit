@@ -4080,7 +4080,7 @@ var Panel = function (props) {
 };
 var templateObject_1$8;
 
-var PriceContainer = styled.div(templateObject_1$7 || (templateObject_1$7 = __makeTemplateObject(["\n  display: none;\n  background: ", ";\n  height: 42px;\n  border-radius: 24px;\n  margin: 0px 10px;\n  align-items: center;\n\n  ", " {\n    width: 100%;\n    display: flex;\n  }\n  .right-eye {\n    animation-delay: 20ms;\n  }\n"], ["\n  display: none;\n  background: ", ";\n  height: 42px;\n  border-radius: 24px;\n  margin: 0px 10px;\n  align-items: center;\n\n  ", " {\n    width: 100%;\n    display: flex;\n  }\n  .right-eye {\n    animation-delay: 20ms;\n  }\n"])), function (_a) {
+var PriceContainer = styled.div(templateObject_1$7 || (templateObject_1$7 = __makeTemplateObject(["\n  display: none;\n  background: ", ";\n  height: 42px;\n  border-radius: 4px;\n  margin: 0px 10px;\n  align-items: center;\n\n  ", " {\n    width: 100%;\n    display: flex;\n  }\n  .right-eye {\n    animation-delay: 20ms;\n  }\n"], ["\n  display: none;\n  background: ", ";\n  height: 42px;\n  border-radius: 4px;\n  margin: 0px 10px;\n  align-items: center;\n\n  ", " {\n    width: 100%;\n    display: flex;\n  }\n  .right-eye {\n    animation-delay: 20ms;\n  }\n"])), function (_a) {
     var theme = _a.theme;
     return theme.colors.input;
 }, function (_a) {
