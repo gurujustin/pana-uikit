@@ -1397,7 +1397,7 @@ var StyledCardInner = styled(Box)(templateObject_4$8 || (templateObject_4$8 = __
     return background !== null && background !== void 0 ? background : theme.card.background;
 }, function (_a) {
     var theme = _a.theme;
-    return theme.radii.card;
+    return theme.radii.small;
 });
 StyledCard.defaultProps = {
     isActive: false,
@@ -1423,7 +1423,7 @@ var CardHeader = styled.div(templateObject_1$T || (templateObject_1$T = __makeTe
     return theme.card.cardHeaderBackground[variant];
 }, function (_a) {
     var theme = _a.theme;
-    return theme.radii.card + " " + theme.radii.card + " 0 0";
+    return theme.radii.small + " " + theme.radii.small + " 0 0";
 }, space);
 CardHeader.defaultProps = {
     p: "24px",
@@ -3245,7 +3245,7 @@ var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors),
         violetAlt: "linear-gradient(180deg, #CBD7EF 0%, #9A9FD0 100%)",
         gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), additionalColors), { primary: "#28cd6a", primaryBright: "#28cd6a", secondary: "#28cd6a", background: "#171923", backgroundDisabled: "#4a5568", backgroundAlt: "#1a202c", backgroundNav: "#1a202c", backgroundTooltip: "#2d3748", cardHeader: "transparent", cardBorder: "#1a202c", cardShadow: "#28cd6a73", cardDivider: "#2d3748", contrast: "#FFFFFF", dropdown: "#2d3748", dropdownDeep: "#100C18", invertedContrast: "#191326", input: "#2d3748", inputSecondary: "#2d3748", primaryDark: "#0098A1", tertiary: "#9F7AEA", text: "#F4EEFF", textDisabled: "#FFFFFF", textSubtle: "#718096", textActive: "#28cd6a", textInActive: "#FFFFFF", textPrice: "#0bc5ea", disabled: "#4a5568", hamburger: "#28cd6a", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), additionalColors), { primary: "#28cd6a", primaryBright: "#28cd6a", secondary: "#28cd6a", background: "#171923", backgroundDisabled: "#4a5568", backgroundAlt: "#222C37", backgroundNav: "#222C37", backgroundTooltip: "#2d3748", cardHeader: "transparent", cardBorder: "#222C37", cardShadow: "#28cd6a73", cardDivider: "#2d3748", contrast: "#FFFFFF", dropdown: "#2d3748", dropdownDeep: "#100C18", invertedContrast: "#191326", input: "#2d3748", inputSecondary: "#2d3748", primaryDark: "#0098A1", tertiary: "#9F7AEA", text: "#F4EEFF", textDisabled: "#FFFFFF", textSubtle: "#718096", textActive: "#28cd6a", textInActive: "#FFFFFF", textPrice: "#0bc5ea", disabled: "#4a5568", hamburger: "#28cd6a", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
         inverseBubblegum: "linear-gradient(139.73deg, #3D2A54 0%, #313D5C 100%)",
         cardHeader: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
